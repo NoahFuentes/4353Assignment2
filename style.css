@@ -1,0 +1,115 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.login-box {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+  padding: 20px;
+  width: 400px;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.register-btn {
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register-btn:hover {
+  background-color: #2980b9;
+}
+
+.fuel-quote-button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.fuel-quote-button:hover {
+  background-color: #3e8e41; /* Dark green */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 20px 10px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.nav-bar {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 50px;
+}
